@@ -81,9 +81,9 @@ def ask_investment_experience():
         if count_1 > count_2 and count_1 > count_3:
             result = "안정형 : 최소한의 위험을 선호하며 주로 안정적인 수익을 추구하는 투자자입니다."
         elif count_2 > count_1 and count_2 > count_3:
-            result = "중립형 : 적당한 수준의 위험을 수용하면서도 균형 잡힌 수익을 기대하는 투자자입니다."
+            result = "중립형 : 적당한 수준의 위험을 수용하면서도 균형 잡힌 수익을 기대합니다."
         else:
-            result = "공격형 : 높은 "
+            result = "공격형 : 높은 성장 잠재력과 수익을 목표로 하며 상당한 위험을 감수할 준비가 되어 있습니다."
 
         print(f"\n당신은 {result}")
 
